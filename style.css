@@ -1,0 +1,25 @@
+h1, h2, h3 {
+    display: flex;
+    justify-content: center;
+}
+
+#grid {
+    width: 600px;
+    height: 600px;
+    border: solid 1px black;
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+}
+
+#controls {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    margin-bottom: 16px;
+}
+
+#reset {
+    display: flex;
+    justify-content: center;
+}
