@@ -10,16 +10,13 @@
 <body>
     <h1>Etch-A-Sketch</h1>
     <h2>Click to draw</h2>
-    <div id="grid"></div>
-    <div id="container">
-        <h3>Grid Density</h3>
-        <div id="controls">
-            <button id="small">Small</button>
-            <button id="medium">Medium</button>
-            <button id="large">Large</button>
-        </div>
-        <div id="reset">
-            <button id="resetBtn">Reset</button>
+    <div class="grid"></div>
+    <div class="container">
+        <h3>Grid Size</h3>
+        <div class="controls">
+            <div class="gridSize">30x30</div>
+            <input type="range" min="1" max="60" value="30" class="slider" id="myRange">
+            <button class="reset">Reset</button>
         </div>
     </div>
     <script src="script.js"></script>
