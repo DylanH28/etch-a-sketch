@@ -5,7 +5,7 @@ let gridInput = document.querySelector('input');
 const applyGridSize = document.querySelector('.apply');
 
 //Creates default grid
-let boxSize = 30;
+let boxSize = 20;
 createGrid(boxSize);
 
 //Creating divs using javascript
