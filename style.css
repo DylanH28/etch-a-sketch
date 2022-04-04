@@ -121,11 +121,15 @@ button:hover {
 footer {
     position: fixed;
 	width: 100%;
-    height: 28px;
+    height: 40px;
 	left: 0;
 	bottom: 0;
 	background-color: var(--color-cyan);
 	color: black;
     font-weight: bold;
 	text-align: center;
+}
+
+img {
+    mix-blend-mode: multiply;
 }
