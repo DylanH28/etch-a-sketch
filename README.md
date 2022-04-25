@@ -1,1 +1,1 @@
-This is my second javascript project!
+My second project using Javascript that simulates an eetch-a-sketch toy.
